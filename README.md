@@ -30,7 +30,7 @@ Para acompanhar as atividades desta unidade curricular, você precisará ter o s
 
 1.  **Navegador Web:** Recomenda-se o uso do Google Chrome ou Firefox para uma melhor compatibilidade com as ferramentas de desenvolvimento.
 2.  **Editor de Código:** Sugerimos o [Visual Studio Code](https://code.visualstudio.com/), que é gratuito e possui excelente suporte para Javascript.
-3.  **Node.js (Opcional, mas recomendado):** O [Node.js](https://nodejs.org/pt/) permite executar código Javascript fora do navegador, o que será útil para testar algoritmos de forma mais direta.
+3.  **Node.js:** O [Node.js](https://nodejs.org/pt/) permite executar código Javascript fora do navegador, o que será útil para testar algoritmos de forma mais direta.
 
 Para clonar este repositório para a sua máquina local, utilize o seguinte comando no seu terminal:
 
@@ -43,12 +43,3 @@ git clone <URL_DO_REPOSITORIO>
 Este repositório é uma ferramenta de aprendizado colaborativo. Sinta-se à vontade para abrir *issues* para relatar problemas, sugerir melhorias ou tirar dúvidas.
 
 -----
-
-\<p align="center"\>
-\<a href="[https://www.rj.senac.br/](https://www.rj.senac.br/)"\>
-\<img src="[https://www.rj.senac.br/wp-content/uploads/2023/10/logo-senac-rj.png](https://www.google.com/search?q=https://www.rj.senac.br/wp-content/uploads/2023/10/logo-senac-rj.png)" alt="SENAC RJ Logo" width="200"/\>
-\</a\>
-\</p\>
-\<p align="center"\>
-\<strong\>Formação Fullstack Python - SENAC RJ\</strong\>
-\</p\>
