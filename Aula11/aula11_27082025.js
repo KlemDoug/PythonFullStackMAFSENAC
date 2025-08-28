@@ -49,6 +49,19 @@ depositar(cliente1, 500);  // Deposita 500 no cliente1
 sacar(cliente2, 300);      // Saca 300 do cliente2
 
 //////////////////////////////////////////////////////////////////////////////////////
+
+/*
+ * VERSÃO COM PROGRAMAÇÃO ORIENTADA A OBJETOS - ESCALÁVEL
+ * 
+ * Aqui, nós usamos uma classe ContaBancaria para criar quantas contas forem necessárias.
+ * Todas as operações e dados relacionados a uma conta ficam ENCAPSULADOS na classe.
+ */
+
+/*
+ * Definição da classe ContaBancaria
+ * O constructor é chamado quando criamos uma nova conta (new ContaBancaria())
+ */
+
 class ContaBancaria {
     constructor(titular, saldoInicial, numeroConta) { 
         this.titular = titular;              // Nome do titular da conta
@@ -157,14 +170,6 @@ conta1.transferir(200, conta3);  // João transfere 200 para Carlos
 // Verificando extratos
 conta1.verExtrato();  // Mostra extrato da conta1 (João)
 conta3.verExtrato();  // Mostra extrato da conta3 (Carlos)
-/*
- * VERSÃO COM PROGRAMAÇÃO ORIENTADA A OBJETOS - ESCALÁVEL
- * 
- * Aqui, nós usamos uma classe ContaBancaria para criar quantas contas forem necessárias.
- * Todas as operações e dados relacionados a uma conta ficam ENCAPSULADOS na classe.
- */
 
-/*
- * Definição da classe ContaBancaria
- * O constructor é chamado quando criamos uma nova conta (new ContaBancaria())
- */
+
+
