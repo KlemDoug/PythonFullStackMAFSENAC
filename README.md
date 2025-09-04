@@ -1,45 +1,55 @@
-## Repositório da Unidade Curricular: Algoritmos e Fundamentos de Javascript
+## Repositório da Formação Fullstack Python - SENAC RJ
 
-Este repositório é dedicado aos materiais de estudo e exercícios da unidade curricular de **Algoritmos e Fundamentos de Javascript**, parte integrante da formação **Fullstack Python** oferecida pelo **SENAC RJ** em formato remoto. Aqui, você encontrará todo o suporte necessário para dar os primeiros passos no mundo da programação em sua jornada como desenvolvedor(a).
+Este repositório reúne os materiais de estudo e projetos desenvolvidos ao longo da formação **Fullstack Python** do **SENAC RJ**, em formato remoto. Ele serve como um guia e um portfólio para acompanhar a sua jornada como desenvolvedor(a).
 
 -----
 
-### Visão Geral da Unidade Curricular
+### Estrutura do Repositório
 
-A primeira unidade curricular da formação Fullstack Python foi desenhada para introduzir os conceitos essenciais da lógica de programação e do desenvolvimento de algoritmos. Utilizando a linguagem Javascript, uma das mais versáteis e requisitadas do mercado, os alunos terão a oportunidade de aprender na prática os fundamentos que sustentam o desenvolvimento de software moderno.
+O conteúdo está organizado por Unidades Curriculares (UCs), refletindo a progressão do curso. Cada pasta corresponde a uma UC específica, contendo os exercícios, exemplos e projetos práticos.
 
-O curso aborda desde os conceitos mais básicos, como variáveis e tipos de dados, até estruturas mais complexas, como laços de repetição e funções. O objetivo é capacitar o aluno a pensar de forma algorítmica e a traduzir soluções para problemas do dia a dia em código funcional e eficiente.
+  * `UC1`: Dedicada a **Algoritmos e Fundamentos de Javascript**. Aqui, você encontrará os primeiros passos da sua jornada, focados em lógica de programação e na base do Javascript, como variáveis, estruturas de repetição e funções.
+  * `UC2`: Focada na construção de interfaces com **front-end**. Esta pasta contém os projetos e materiais sobre HTML, CSS e Bootstrap, ferramentas essenciais para a criação de páginas web visualmente atraentes e responsivas.
 
-### 📚 Tópicos Abordados
+-----
 
-Ao longo desta unidade, exploraremos os seguintes temas:
+### 📚 Conteúdo Detalhado
 
-  * **Lógica de Programação:** Como estruturar o pensamento para resolver problemas de forma lógica e sequencial.
-  * **Introdução ao Javascript:** Conhecendo a história, a sintaxe e o ecossistema da linguagem.
-  * **Variáveis e Tipos de Dados:** Armazenamento e manipulação de informações essenciais em um programa.
-  * **Operadores:** Realização de operações aritméticas, de comparação e lógicas.
-  * **Estruturas Condicionais:** Tomada de decisões no código com `if`, `else if` e `else`.
-  * **Estruturas de Repetição:** Execução de blocos de código de forma iterativa com `for` e `while`.
-  * **Arrays (Vetores):** Trabalhando com listas de dados.
-  * **Funções:** Organizando e reutilizando blocos de código para tarefas específicas.
-  * **Boas Práticas de Programação:** Escrevendo um código limpo, legível e de fácil manutenção.
+#### UC1: Algoritmos e Fundamentos de Javascript
+
+Esta unidade introdutória foi desenhada para estabelecer uma base sólida em lógica de programação. Os tópicos abordados incluem:
+
+  * **Lógica de Programação:** A arte de estruturar o pensamento para resolver problemas.
+  * **Fundamentos de Javascript:** Conhecendo a sintaxe, variáveis, tipos de dados e operadores.
+  * **Estruturas Essenciais:** Utilizando laços de repetição (`for`, `while`) e condicionais (`if`, `else`) para controlar o fluxo do código.
+  * **Organização de Código:** Aprendendo a trabalhar com arrays e funções para escrever um código mais limpo e reutilizável.
+
+#### UC2: Front-end (HTML, CSS e Bootstrap)
+
+Esta unidade expande seus conhecimentos para a criação visual das aplicações. O foco aqui é transformar ideias em interfaces de usuário funcionais. Os tópicos abordados são:
+
+  * **HTML:** A linguagem de marcação que estrutura o conteúdo de uma página web.
+  * **CSS:** As folhas de estilo que dão vida ao design, controlando cores, fontes e layout.
+  * **Bootstrap:** Um framework popular que agiliza o desenvolvimento de designs responsivos, facilitando a criação de layouts que se adaptam a diferentes dispositivos.
+
+-----
 
 ### 🚀 Como Começar
 
-Para acompanhar as atividades desta unidade curricular, você precisará ter o seguinte ambiente de desenvolvimento configurado em sua máquina:
+Para começar, certifique-se de que o seu ambiente de desenvolvimento esteja pronto. Você vai precisar de:
 
-1.  **Navegador Web:** Recomenda-se o uso do Google Chrome ou Firefox para uma melhor compatibilidade com as ferramentas de desenvolvimento.
-2.  **Editor de Código:** Sugerimos o [Visual Studio Code](https://code.visualstudio.com/), que é gratuito e possui excelente suporte para Javascript.
-3.  **Node.js:** O [Node.js](https://nodejs.org/pt/) permite executar código Javascript fora do navegador, o que será útil para testar algoritmos de forma mais direta.
+1.  **Navegador Web:** **Google Chrome** ou **Firefox** são altamente recomendados.
+2.  **Editor de Código:** **Visual Studio Code** é uma excelente escolha, gratuita e com ótimas extensões para Javascript, HTML e CSS.
+3.  **Node.js:** Essencial para executar códigos Javascript fora do navegador.
 
-Para clonar este repositório para a sua máquina local, utilize o seguinte comando no seu terminal:
+Para clonar o repositório e ter acesso aos arquivos localmente, use o comando:
 
 ```bash
 git clone <URL_DO_REPOSITORIO>
 ```
 
-### 🤝 Contribuição
-
-Este repositório é uma ferramenta de aprendizado colaborativo. Sinta-se à vontade para abrir *issues* para relatar problemas, sugerir melhorias ou tirar dúvidas.
-
 -----
+
+### 🤝 Contribuição e Suporte
+
+Este repositório é uma ferramenta de estudo e colaboração. Sinta-se à vontade para abrir **issues** para relatar bugs, sugerir melhorias ou tirar dúvidas. A sua participação ajuda a fortalecer o nosso aprendizado coletivo\!
