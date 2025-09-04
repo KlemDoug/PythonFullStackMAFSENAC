@@ -1,0 +1,151 @@
+/* Importação de fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/* --- Estilos Gerais --- */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+}
+
+/* --- Layout Principal --- */
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* --- Cabeçalho (Header) --- */
+
+header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.8em;
+    color: #1a1a1a;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #666;
+    font-weight: 300;
+}
+
+/* --- Seções (Sections) --- */
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    font-size: 1.8em;
+    color: #1c6d8c;
+    border-bottom: 2px solid #1c6d8c;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+/* --- Artigos de Experiência e Formação --- */
+
+article {
+    margin-bottom: 25px;
+    padding-left: 15px;
+    border-left: 4px solid #b3d9ff;
+}
+
+article h3 {
+    font-size: 1.3em;
+    color: #2a2a2a;
+    margin-bottom: 5px;
+}
+
+article p {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+article p strong {
+    color: #1a1a1a;
+}
+
+/* --- Listas (Habilidades e Idiomas) --- */
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+li {
+    background-color: #e6f2ff;
+    color: #1c6d8c;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 0.95em;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+li:hover {
+    background-color: #b3d9ff;
+}
+
+/* --- Seção de Contato --- */
+
+section:last-of-type p {
+    margin-bottom: 10px;
+}
+
+/* --- Rodapé (Footer) --- */
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    font-size: 0.9em;
+    color: #777;
+}
+
+/* --- Responsividade --- */
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    main {
+        padding: 20px;
+        margin: 10px auto;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+}
