@@ -1,0 +1,34 @@
+/* Estilos gerais da tabela */
+.tabela-precos {
+    width: 80%;
+    border-collapse: collapse; /* Remove o espaço entre as bordas */
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para o cabeçalho */
+
+.tabela-precos th{
+    background-color: #351010;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+.tabela-precos th.colspan{
+    background-color: #351010;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilo para as linhas pares e ímpares */
+.tabela-precos tr:nth-child(even) {
+    background-color: #f5c4c4;
+}
+
+/* Estilo para as células de dados */
+.tabela-precos td {
+    border: 1px solid #d61e1e;
+    padding: 8px;
+}
